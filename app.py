@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Conversor de temperatura")
+st.title("Conversor de temperatura entre Celsius y Fahrenheit")
 
 modo = st.radio("Convertir de:", [
                 "Celsius a Fahrenheit", "Fahrenheit a Celsius"])
